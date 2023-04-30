@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1868C22729ADCAA30049B9A6 /* MovieMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868C22629ADCAA30049B9A6 /* MovieMemoApp.swift */; };
-		1868C22929ADCAA30049B9A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868C22829ADCAA30049B9A6 /* ContentView.swift */; };
 		1868C22B29ADCAA50049B9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1868C22A29ADCAA50049B9A6 /* Assets.xcassets */; };
 		1868C22E29ADCAA50049B9A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1868C22D29ADCAA50049B9A6 /* Preview Assets.xcassets */; };
+		1868C23929ADCBB60049B9A6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868C23829ADCBB60049B9A6 /* Movie.swift */; };
+		1868C23D29ADCDC20049B9A6 /* MovieRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868C23C29ADCDC20049B9A6 /* MovieRowView.swift */; };
+		1868C23F29ADCDD70049B9A6 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868C23E29ADCDD70049B9A6 /* MovieDetailView.swift */; };
+		1868C24129ADD0610049B9A6 /* MovieCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868C24029ADD0610049B9A6 /* MovieCatalogView.swift */; };
+		1881518429ADF63B0030AF9F /* MyAppDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1881518229ADF63B0030AF9F /* MyAppDataModel.xcdatamodeld */; };
+		188151A029AEC4A40030AF9F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881519F29AEC4A40030AF9F /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1868C22329ADCAA30049B9A6 /* MovieMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1868C22629ADCAA30049B9A6 /* MovieMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMemoApp.swift; sourceTree = "<group>"; };
-		1868C22829ADCAA30049B9A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1868C22A29ADCAA50049B9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1868C22D29ADCAA50049B9A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1868C23829ADCBB60049B9A6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		1868C23C29ADCDC20049B9A6 /* MovieRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowView.swift; sourceTree = "<group>"; };
+		1868C23E29ADCDD70049B9A6 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		1868C24029ADD0610049B9A6 /* MovieCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCatalogView.swift; sourceTree = "<group>"; };
+		1881517E29ADF56B0030AF9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1881518329ADF63B0030AF9F /* MyAppDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyAppDataModel.xcdatamodel; sourceTree = "<group>"; };
+		1881519F29AEC4A40030AF9F /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,14 @@
 		1868C22529ADCAA30049B9A6 /* MovieMemo */ = {
 			isa = PBXGroup;
 			children = (
+				1881517E29ADF56B0030AF9F /* Info.plist */,
 				1868C22629ADCAA30049B9A6 /* MovieMemoApp.swift */,
-				1868C22829ADCAA30049B9A6 /* ContentView.swift */,
+				1868C23829ADCBB60049B9A6 /* Movie.swift */,
+				1868C24029ADD0610049B9A6 /* MovieCatalogView.swift */,
+				1868C23E29ADCDD70049B9A6 /* MovieDetailView.swift */,
+				1881519F29AEC4A40030AF9F /* AudioPlayer.swift */,
+				1868C23C29ADCDC20049B9A6 /* MovieRowView.swift */,
+				1881518229ADF63B0030AF9F /* MyAppDataModel.xcdatamodeld */,
 				1868C22A29ADCAA50049B9A6 /* Assets.xcassets */,
 				1868C22C29ADCAA50049B9A6 /* Preview Content */,
 			);
@@ -137,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1868C22929ADCAA30049B9A6 /* ContentView.swift in Sources */,
+				1868C23F29ADCDD70049B9A6 /* MovieDetailView.swift in Sources */,
+				1881518429ADF63B0030AF9F /* MyAppDataModel.xcdatamodeld in Sources */,
+				1868C23D29ADCDC20049B9A6 /* MovieRowView.swift in Sources */,
 				1868C22729ADCAA30049B9A6 /* MovieMemoApp.swift in Sources */,
+				1868C24129ADD0610049B9A6 /* MovieCatalogView.swift in Sources */,
+				1868C23929ADCBB60049B9A6 /* Movie.swift in Sources */,
+				188151A029AEC4A40030AF9F /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +292,8 @@
 				DEVELOPMENT_TEAM = YP6X3H62GH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MovieMemo/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +322,8 @@
 				DEVELOPMENT_TEAM = YP6X3H62GH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MovieMemo/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -339,6 +363,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1881518229ADF63B0030AF9F /* MyAppDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1881518329ADF63B0030AF9F /* MyAppDataModel.xcdatamodel */,
+			);
+			currentVersion = 1881518329ADF63B0030AF9F /* MyAppDataModel.xcdatamodel */;
+			path = MyAppDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1868C21B29ADCAA30049B9A6 /* Project object */;
 }
